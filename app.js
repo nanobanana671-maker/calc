@@ -20,7 +20,7 @@ function emi(){const P=+$('la').value,R=+$('lr').value,T=+$('lt').value;if(!(P>0
 
 const AD_CLIENT='ca-pub-4323979893422483';
 /* Paste your AdSense ad unit slot IDs (numbers) between the quotes. Empty = no ad shown. */
-const AD_SLOTS={mid:'',end:''};
+const AD_SLOTS={mid:'3517515044',end:'7265188366'};
 document.querySelectorAll('.adwrap').forEach(w=>{const s=AD_SLOTS[w.dataset.slot];if(!s){w.remove();return}
 w.innerHTML='<small>Advertisement</small><ins class="adsbygoogle" style="display:block" data-ad-client="'+AD_CLIENT+'" data-ad-slot="'+s+'" data-ad-format="auto" data-full-width-responsive="true"></ins>';
 try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}});
