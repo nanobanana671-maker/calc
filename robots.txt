@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://calc71.netlify.app/sitemap.xml

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Age Calculator – Exact Age in Years, Months, Days | Calc71</title><meta name="description" content="Find your exact age or the gap between two dates in years, months and days."><link rel="canonical" href="https://calc71.netlify.app/age.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4323979893422483" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNZR2YEWRN"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-RNZR2YEWRN');</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="logo" href="index.html">Calc<b>71</b></a>
+<nav aria-label="Main"><a href="bmi.html">BMI</a><a href="age.html">Age</a><a href="percentage.html">Percentage</a><a href="emi.html">Loan EMI</a></nav></div></header>
+<main id="main">
+
+<h1>Age Calculator</h1>
+<p class="lead">Find your exact age, or the gap between any two dates, in years, months and days.</p>
+<div class="calc">
+<label for="ab">Date of birth</label><input id="ab" type="date">
+<label for="at">Age on date (leave empty for today)</label><input id="at" type="date">
+<button class="go" onclick="age()">Calculate age</button>
+<div class="res" id="ager" aria-live="polite"></div></div>
+<div class="adwrap" data-slot="mid"></div>
+<h2>How age is calculated</h2>
+<p>The calculator subtracts your birth date from the target date, counting whole years first, then whole months, then the remaining days. If the day of the month in the target date is smaller than your birth day, it borrows days from the previous month, which is how people count age in everyday life.</p>
+<h2>Worked example</h2>
+<p>Someone born on 15 March 2000 and checked on 10 June 2026 is 26 years, 2 months and 26 days old. That is 26 full years, then two full months from 15 March to 15 May, then 26 days from 15 May to 10 June.</p>
+<h2>When you need an exact age</h2>
+<p>School admissions, job applications, insurance forms, retirement planning and sports eligibility often depend on age on a specific date. Use the second date field to check your age on a deadline such as the first day of a school year.</p>
+<h2>Frequently asked questions</h2>
+<details><summary>How are leap years handled?</summary><p>The calculator uses the real calendar, so leap years and different month lengths are included automatically.</p></details>
+<details><summary>Can I find the difference between two dates?</summary><p>Yes. Enter the earlier date as the date of birth and the later date in the second field.</p></details>
+<details><summary>Is my date of birth saved?</summary><p>No. Everything is calculated in your browser and nothing is stored.</p></details>
+
+<div class="adwrap" data-slot="end"></div>
+</main>
+<footer><p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></p><p>© 2026 Calc71. Created by 2671.</p></footer>
+<script src="app.js" defer></script></body></html>

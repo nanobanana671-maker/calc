@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loan EMI Calculator – Monthly Payment and Interest | Calc71</title><meta name="description" content="Calculate your monthly loan EMI, total interest and total repayment with a worked example."><link rel="canonical" href="https://calc71.netlify.app/emi.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4323979893422483" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNZR2YEWRN"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-RNZR2YEWRN');</script>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="bar"><a class="logo" href="index.html">Calc<b>71</b></a>
+<nav aria-label="Main"><a href="bmi.html">BMI</a><a href="age.html">Age</a><a href="percentage.html">Percentage</a><a href="emi.html">Loan EMI</a></nav></div></header>
+<main id="main">
+
+<h1>Loan EMI Calculator</h1>
+<p class="lead">Work out your monthly instalment, total interest and total repayment before you borrow.</p>
+<div class="calc">
+<label for="la">Loan amount</label><input id="la" type="number" min="1" placeholder="1000000">
+<div class="row2"><div><label for="lr">Interest rate (% per year)</label><input id="lr" type="number" min="0" step="0.01" placeholder="12"></div>
+<div><label for="lt">Tenure (years)</label><input id="lt" type="number" min="0.1" step="0.1" placeholder="5"></div></div>
+<button class="go" onclick="emi()">Calculate EMI</button>
+<div class="res" id="emir" aria-live="polite"></div></div>
+<div class="adwrap" data-slot="mid"></div>
+<h2>How EMI works</h2>
+<p>An equated monthly instalment (EMI) is the fixed amount you pay each month until a loan is cleared. Early payments contain mostly interest, and later payments contain mostly principal. The formula is EMI = P × r × (1+r)<sup>n</sup> ÷ ((1+r)<sup>n</sup> − 1), where P is the loan amount, r is the monthly interest rate (annual rate ÷ 12 ÷ 100) and n is the number of months.</p>
+<h2>Worked example</h2>
+<p>For a loan of 1,000,000 at 12% a year over 5 years, r is 0.01 and n is 60. The EMI comes to about 22,244. Over 60 months you repay about 1,334,600, so the interest cost is roughly 334,600.</p>
+<h2>How to lower your EMI</h2>
+<p>A longer tenure reduces the monthly amount but increases total interest. A larger down payment, a lower interest rate or a part-prepayment can all reduce what you pay overall. Compare offers from several lenders, and check for processing fees, early-repayment charges and insurance add-ons, which this calculator does not include.</p>
+<h2>Frequently asked questions</h2>
+<details><summary>Is the interest reducing balance or flat?</summary><p>This calculator uses the reducing balance method, which most banks use. Flat-rate loans cost more for the same stated rate.</p></details>
+<details><summary>Does the result include fees?</summary><p>No. Fees and taxes charged by your lender are extra, so confirm the final figures with them.</p></details>
+<details><summary>Can I use it for car, home or personal loans?</summary><p>Yes. Any loan with a fixed rate and equal monthly payments follows the same formula.</p></details>
+
+<div class="adwrap" data-slot="end"></div>
+</main>
+<footer><p><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></p><p>© 2026 Calc71. Created by 2671.</p></footer>
+<script src="app.js" defer></script></body></html>
